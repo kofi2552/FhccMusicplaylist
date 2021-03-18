@@ -1135,7 +1135,8 @@ p{
     
     #logo_2{
         height: 44px;
-        width: 162px;
+        width: 60px;
+        padding-top: 10px;
         padding-left: 100px;
     }
     
