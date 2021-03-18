@@ -1130,20 +1130,40 @@ p{
     }
     .logo2{
         display: contents;
-        overflow: hidden;
+        text-align: center;
+        overflow: hidden !important;
+        z-index: 10;
+        
     }
     
     #logo_2{
         height: 44px;
         width: 52px;
-        padding-top: 10px;
-        padding-left: 112px;
+        padding-left: 160px;
+        padding-right: 160px;
+        padding-top: 15px;
+    }
+    
+    .navbar{
+        padding-left: 0px;
+    }
+    h1{
         
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    h3{
+        text-align: center;
     }
     
     h5{
+        font-size: 16px;
+        text-align: center;
+        padding-left: 30px;
         padding-right: 30px;
-        padding-bottom: 10px;
+        margin-top: 0px;
     }
     
    
