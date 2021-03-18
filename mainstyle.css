@@ -1230,7 +1230,7 @@ main{
 /*----------------------------------------------------------------------------------GRID AREAS----------------------------------------------------------------------*/
 .container {
   display: grid;
-  height: 370vh;
+  height: 360vh;
   justify-content: center;
   grid-template-columns: 1fr 1fr ;
   grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.1fr;
@@ -1274,7 +1274,6 @@ main{
     grid-template-areas:
       "nav"
       "main"
-      "sidebar"
       "content1"
       "content2"
       "content3"
@@ -1347,14 +1346,7 @@ main{
         padding-right: 30px;
         margin-top: 0px;
     }
-    
-    
-    main{
-    position: sticky;
-    top:0;
-    z-index: 10;
-}
-   
+
     
     #content2{
         margin-right: 0;
@@ -1499,7 +1491,7 @@ main{
     grid-template-rows: 0.02fr 0.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1fr;
     grid-template-areas:
       "nav"
-      "sidebar"
+      "main"
       "content1"
       "content2"
       "content3"
