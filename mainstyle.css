@@ -1,6 +1,6 @@
 :root {
-  --main-radius: 5px;
-  --main-padding: 5px;
+  --main-radius: 7px;
+  --main-padding: 0px;
 }
 
 body {
@@ -1047,7 +1047,7 @@ p{
     margin-bottom: 0px;
 }
 
-
+/*----------------------------------------------------------------------------------GRID AREAS----------------------------------------------------------------------*/
 .container {
   display: grid;
   height: 360vh;
@@ -1075,7 +1075,7 @@ p{
   font-size: 12px;
   color: #FCFBFB;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 0px;
   margin-left: 400px;
   margin-right: 400px;
   margin-bottom: 100px; 
