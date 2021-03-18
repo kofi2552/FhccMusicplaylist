@@ -1115,7 +1115,8 @@ p{
       "content26"
       "footer";
     
-    margin-left: 240px;  
+      margin-top: 0;
+     margin-left: 0;
   }
     
     
@@ -1296,7 +1297,8 @@ p{
       "content26"
       "footer";
     
-    margin-left: 240px;  
+      margin-left: 0px;
+    /*margin-left: 240px;  */
   }
     
     
