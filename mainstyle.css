@@ -13,10 +13,6 @@ a{
     margin: 10px
 }
 
-
-
-
-
 nav {
   background: #F84B4B;
   grid-area: nav;
@@ -26,6 +22,7 @@ nav {
 .navbar{
     text-align: left;
     padding-left: 50px;
+    margin-bottom: 20px;
 }
 h1{
     font-family: Inter;
@@ -34,7 +31,7 @@ h1{
     padding-right: 20px;
 }
 #heading_text{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 /*main {
@@ -66,10 +63,8 @@ h2{
 }
 
 h5{
-    font-weight: 800;
-    font-size: 25px;
-    padding-bottom: 20px;
-    border-radius: 2px solid white;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 /*.giffy_clip{
@@ -111,7 +106,7 @@ h5{
   grid-area: content2;
   border-radius: var(--main-radius);
   padding-top: 35px;
-  
+  margin-right: 20px;
 }
 
 .buttons_1{
@@ -181,7 +176,7 @@ h5{
   grid-area: content4;
   border-radius: var(--main-radius);
   padding-top: 35px;
-  
+  margin-right: 20px;
 }
 
 .buttons_2{
@@ -254,7 +249,7 @@ h5{
   grid-area: content6;
   border-radius: var(--main-radius);
   padding-top: 35px;
-  
+  margin-right: 20px;
 }
 
 .buttons_3{
@@ -324,7 +319,7 @@ h5{
   grid-area: content8;
   border-radius: var(--main-radius);
   padding-top: 35px;
-  
+  margin-right: 20px;
 }
 
 .buttons_4{
@@ -395,7 +390,7 @@ h5{
   grid-area: content10;
   border-radius: var(--main-radius);
   padding-top: 35px;
-  
+  margin-right: 20px;
 }
 
 .buttons_5{
@@ -467,7 +462,7 @@ h5{
   grid-area: content12;
   border-radius: var(--main-radius);
   padding-top: 35px;
-  
+  margin-right: 20px;
 }
 
 .buttons_6{
@@ -539,7 +534,7 @@ h5{
   grid-area: content14;
   border-radius: var(--main-radius);
   padding-top: 35px;
-  
+  margin-right: 20px;
 }
 
 .buttons_7{
@@ -611,7 +606,7 @@ h5{
   grid-area: content16;
   border-radius: var(--main-radius);
   padding-top: 35px;
-  
+  margin-right: 20px;
 }
 
 .buttons_8{
@@ -683,7 +678,7 @@ h5{
   grid-area: content18;
   border-radius: var(--main-radius);
   padding-top: 35px;
-  
+  margin-right: 20px;
 }
 
 .buttons_9{
@@ -755,7 +750,7 @@ h5{
   grid-area: content20;
   border-radius: var(--main-radius);
   padding-top: 35px;
-  
+  margin-right: 20px;
 }
 
 .buttons_10{
@@ -827,7 +822,7 @@ h5{
   grid-area: content22;
   border-radius: var(--main-radius);
   padding-top: 35px;
-  
+  margin-right: 20px;
 }
 
 .buttons_11{
@@ -899,7 +894,7 @@ h5{
   grid-area: content24;
   border-radius: var(--main-radius);
   padding-top: 35px;
-  
+  margin-right: 20px;
 }
 
 .buttons_12{
@@ -971,7 +966,7 @@ h5{
   grid-area: content26;
   border-radius: var(--main-radius);
   padding-top: 35px;
-  
+  margin-right: 20px;
 }
 
 .buttons_13{
@@ -1041,8 +1036,8 @@ a {
 }
 p{
     padding-top: 10px;
-    font-weight: 600px;
-    font-size: 15px;
+    font-weight: 600;
+    font-size: 13px;
     margin-bottom: 0px;
 }
 
@@ -1125,8 +1120,8 @@ p{
     
     
     #heading_text{
-        padding-right: 40px;
-        padding-bottom: 30px;
+        padding-right: 30px;
+        padding-bottom: 10px;
     }
     
     #content2{
@@ -1144,17 +1139,8 @@ p{
         padding-bottom: 50px;
     }
     
-    #content7{
-        padding-left: 50px;
-        padding-bottom: 50px;
-    }
     
     #content8{
-        padding-left: 50px;
-        padding-bottom: 50px;
-    }
-    
-    #content9{
         padding-left: 50px;
         padding-bottom: 50px;
     }
@@ -1164,18 +1150,8 @@ p{
         padding-bottom: 50px;
     }
     
-    #content11{
-        padding-left: 50px;
-        padding-bottom: 50px;
-    }
-    
     
     #content12{
-        padding-left: 50px;
-        padding-bottom: 50px;
-    }
-    
-    #content13{
         padding-left: 50px;
         padding-bottom: 50px;
     }
@@ -1187,19 +1163,7 @@ p{
     }
     
     
-    #content15{
-        padding-left: 50px;
-        padding-bottom: 50px;
-    }
-    
-    
     #content16{
-        padding-left: 50px;
-        padding-bottom: 50px;
-    }
-    
-    
-    #content17{
         padding-left: 50px;
         padding-bottom: 50px;
     }
@@ -1208,44 +1172,19 @@ p{
         padding-left: 50px;
         padding-bottom: 50px;
     }
-    
-    #content19{
-        padding-left: 50px;
-        padding-bottom: 50px;
-    }
-    
-    
+     
     #content20{
         padding-left: 50px;
         padding-bottom: 50px;
     }
     
     
-    
-    #content21{
-        padding-left: 50px;
-        padding-bottom: 50px;
-    }
-    
     #content22{
         padding-left: 50px;
         padding-bottom: 50px;
     }
     
-    
-    #content23{
-        padding-left: 50px;
-        padding-bottom: 50px;
-    }
-    
-    
     #content24{
-        padding-left: 50px;
-        padding-bottom: 50px;
-    }
-    
-    
-    #content25{
         padding-left: 50px;
         padding-bottom: 50px;
     }
@@ -1311,7 +1250,7 @@ p{
     
     #heading_text{
         padding-right: 40px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
     }
     
     #content2{
@@ -1329,62 +1268,28 @@ p{
         padding-bottom: 50px;
     }
     
-    #content7{
-        padding-left: 50px;
-        padding-bottom: 50px;
-    }
-    
     #content8{
         padding-left: 50px;
         padding-bottom: 50px;
     }
     
-    #content9{
-        padding-left: 50px;
-        padding-bottom: 50px;
-    }
     
     #content10{
         padding-left: 50px;
         padding-bottom: 50px;
     }
     
-    #content11{
-        padding-left: 50px;
-        padding-bottom: 50px;
-    }
-    
-    
     #content12{
         padding-left: 50px;
         padding-bottom: 50px;
     }
-    
-    #content13{
-        padding-left: 50px;
-        padding-bottom: 50px;
-    }
-    
     
     #content14{
         padding-left: 50px;
         padding-bottom: 50px;
     }
     
-    
-    #content15{
-        padding-left: 50px;
-        padding-bottom: 50px;
-    }
-    
-    
     #content16{
-        padding-left: 50px;
-        padding-bottom: 50px;
-    }
-    
-    
-    #content17{
         padding-left: 50px;
         padding-bottom: 50px;
     }
@@ -1394,20 +1299,7 @@ p{
         padding-bottom: 50px;
     }
     
-    #content19{
-        padding-left: 50px;
-        padding-bottom: 50px;
-    }
-    
-    
     #content20{
-        padding-left: 50px;
-        padding-bottom: 50px;
-    }
-    
-    
-    
-    #content21{
         padding-left: 50px;
         padding-bottom: 50px;
     }
@@ -1417,25 +1309,11 @@ p{
         padding-bottom: 50px;
     }
     
-    
-    #content23{
-        padding-left: 50px;
-        padding-bottom: 50px;
-    }
-    
-    
     #content24{
         padding-left: 50px;
         padding-bottom: 50px;
     }
-    
-    
-    #content25{
-        padding-left: 50px;
-        padding-bottom: 50px;
-    }
-    
-    
+   
     #content26{
         padding-left: 50px;
         padding-bottom: 50px;
