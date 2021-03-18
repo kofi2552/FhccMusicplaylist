@@ -1130,10 +1130,12 @@ p{
     }
     .logo2{
         display: contents;
+        overflow: hidden;
     }
     
     #logo_2{
         height: 44px;
+        width: 162px;
         padding-left: 100px;
     }
     
