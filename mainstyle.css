@@ -43,7 +43,7 @@ nav {
 .navbar{
     text-align: left;
     padding-left: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 7px;
 }
 h1{
     font-family: Inter;
@@ -1183,15 +1183,56 @@ p{
     margin-bottom: 0px;
 }
 
+
+#note_msg{
+    font-size: 8px;
+    font-weight: 100;
+    margin-top: 0;
+  padding-top: 7px;
+}
+
+span{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+main{
+  background: #FBA7A7;
+  grid-area: main;
+  border-radius: 7px;
+  
+}
+.main_msg{
+    text-align: center;
+    line-height: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+.annouce{
+    background-color: #4b4b4b;
+    line-height: 20px;
+    
+}
+main{
+    position: sticky;
+    top:0;
+}
+
+
+
+
+
 /*----------------------------------------------------------------------------------GRID AREAS----------------------------------------------------------------------*/
 .container {
   display: grid;
-  height: 360vh;
+  height: 370vh;
   justify-content: center;
   grid-template-columns: 1fr 1fr ;
   grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.1fr;
   grid-template-areas:
     "nav nav"
+    "main main"
     "content1 content2"
     "content3 content4"
     "content5 content6"
@@ -1228,6 +1269,7 @@ p{
     grid-template-rows: 0.02fr 0.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1fr;
     grid-template-areas:
       "nav"
+      "main"
       "sidebar"
       "content1"
       "content2"
@@ -1302,6 +1344,12 @@ p{
         margin-top: 0px;
     }
     
+    
+    main{
+    position: sticky;
+    top:0;
+    bottom: 0;
+}
    
     
     #content2{
