@@ -93,6 +93,7 @@ h5{
     height: 124px;
     width: 234px;
     box-shadow: 0px 4px 20px 1px rgba(251, 167, 167, 0.21);
+    
 }
 .thumbIMG_1{
     max-height: 100px;
@@ -1010,7 +1011,7 @@ h5{
 
 
 footer {
-  background: #FBA7A7;
+  background: #d87e7e;
   grid-area: footer;
   border-radius: var(--main-radius);
   margin-top: 20px;
@@ -1030,7 +1031,7 @@ a {
 }
 .msgme{
     margin-top: 7px;
-    color: #d87e7e;
+    color: #FBA7A7;
     font-size: 14px;
     font-weight: 600;
 }
@@ -1116,13 +1117,17 @@ p{
       "footer";
     
       margin-top: 0;
-     margin-left: 175px !important;
+      margin-left: 175px !important;
   }
     
     
     #heading_text{
         padding-right: 30px;
         padding-bottom: 10px;
+    }
+    
+    #content1{
+        width: 100%;
     }
     
     #content2{
@@ -1297,8 +1302,8 @@ p{
       "content26"
       "footer";
     
-      margin-left: 0px;
-    /*margin-left: 240px;  */
+      margin-top: 0;
+      margin-left: 175px !important;
   }
     
     
