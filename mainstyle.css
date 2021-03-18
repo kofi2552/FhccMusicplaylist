@@ -1,18 +1,35 @@
 :root {
-  --main-radius: 7px;
-  --main-padding: 0px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+hmtl{
+    scroll-behavior: smooth !important;
 }
 
 body {
   font-family: "Inter", sans-serif;
   background-color: #FCFBFB;
 }
+
 .container{
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
-
+.go_up{
+    position: fixed;
+    width: 30px;
+    height: 40px;
+    background-color: #d87e7e;
+    bottom: 5px;
+    right: 420px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    border-radius: 50px;
+}
 a{
+    text-decoration: none;
     color: white;
     margin: 10px
 }
@@ -20,8 +37,8 @@ a{
 nav {
   background: #F84B4B;
   grid-area: nav;
-  border-radius: var(--main-radius);
-  padding-top: var(--main-padding);
+  border-radius: 7px;
+  padding-top: 0px;
 }
 .navbar{
     text-align: left;
