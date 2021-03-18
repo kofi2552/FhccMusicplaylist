@@ -7,6 +7,10 @@ body {
   font-family: "Inter", sans-serif;
   background-color: #FCFBFB;
 }
+.container{
+    transition: 0.5s;
+}
+
 
 a{
     color: white;
@@ -1012,6 +1016,121 @@ h5{
 
 
 /*--------------------------------------------------------------CONTENT 13 END------------------------------------------------------------*/
+
+
+.thumbIMG_1:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.thumbIMG_2:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.thumbIMG_3:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.thumbIMG_4:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.thumbIMG_5:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.thumbIMG_6:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.thumbIMG_7:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.thumbIMG_8:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.thumbIMG_10:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.thumbIMG_11:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.thumbIMG_12:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.thumbIMG_13:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+/*-----------------------------------------------------------Download hovers-------------------------*/
+
+#download1:hover{
+    background-color: #d87e7e;
+}
+
+#download2:hover{
+    background-color: #d87e7e;
+}
+
+#download3:hover{
+    background-color: #d87e7e;
+}
+
+#download4:hover{
+    background-color: #d87e7e;
+}
+
+#download5:hover{
+    background-color: #d87e7e;
+}
+
+#download6:hover{
+    background-color: #d87e7e;
+}
+
+#download7:hover{
+    background-color: #d87e7e;
+}
+
+#download8:hover{
+    background-color: #d87e7e;
+}
+
+#download9:hover{
+    background-color: #d87e7e;
+}
+
+#download10:hover{
+    background-color: #d87e7e;
+}
+
+#download11:hover{
+    background-color: #d87e7e;
+}
+
+#download12:hover{
+    background-color: #d87e7e;
+}
+
+
+#download13:hover{
+    background-color: #d87e7e;
+}
+
+
+
+
+
+
+
+
+
 
 
 
