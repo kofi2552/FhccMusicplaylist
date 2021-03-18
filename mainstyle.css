@@ -38,12 +38,14 @@ nav {
   background: #F84B4B;
   grid-area: nav;
   border-radius: 7px;
-  padding-top: 0px;
+  padding-top: 0;
+  grid-gap: 0 !important;
 }
 .navbar{
     text-align: left;
     padding-left: 40px;
-    margin-bottom: 7px;
+    margin-bottom: 0;
+    
 }
 h1{
     font-family: Inter;
@@ -1200,6 +1202,7 @@ main{
   background: #FBA7A7;
   grid-area: main;
   border-radius: 7px;
+    margin-top: 0;
   
 }
 .main_msg{
@@ -1217,6 +1220,7 @@ main{
 main{
     position: sticky;
     top:0;
+    z-index: 10;
 }
 
 
@@ -1348,7 +1352,7 @@ main{
     main{
     position: sticky;
     top:0;
-    bottom: 0;
+    z-index: 10;
 }
    
     
